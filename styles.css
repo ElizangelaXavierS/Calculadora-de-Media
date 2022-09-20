@@ -1,8 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body {
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Roboto', sans-serif;
     min-height: 400px;
-    background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
-    background-color: #74a8ec;
+    background:#f8e39c;
     background-size: 80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -12,25 +13,72 @@ body {
     text-align: center;
     padding: 20px;
     height: 100vh;
+  
   }
   
   .page-title {
-    color:#ffffff;
-    margin: 0 0 5px;
+    color: #1c1c1c;;
+    margin: 0 0 10px;
+    
   }
   
-  .page-subtitle {
-    color:#ffffff;
+  .page-subtitle  {
+    color: #1c1c1c;;
     margin-top: 5px;
   }
-  
-  .page-logo {
-    width: 200px;
+
+  h3{
+    color: #1c1c1c;
   }
   
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
+  
+ 
+input{
+  background: #f8ebbf;
+  margin: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 4px 8px;
+  border-radius: 100px;
+}
+button{
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 6px 12px;
+  background: #ff8d23;;
+  border-radius: 100px;
+  border: 2px solid #1c1c1c;
+  cursor: pointer;
+}
+
+.resul1{
+  font-weight: 700;
+  font-size: 36px;
+  color: green;
+}
+
+.resul2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: rgb(241, 54, 54);
+}
+
+.resul3{
+    font-weight: 700;
+    font-size: 36px;
+    color:yellow;
   }
+
+.foto{
+    border-radius: 20px;
+    max-height: 200px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.media{
+  font-weight: 700;
+  font-size: 36px;
+
+}
+
