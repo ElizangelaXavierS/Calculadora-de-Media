@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     min-height: 400px;
-    background:#f8e39c;
+    background:#f5c875;
     background-size: 80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -34,20 +34,20 @@ body {
   
  
 input{
-  background: #f8ebbf;
+  background: #e3f7e5;
   margin: 40px;
   font-weight: 400;
   font-size: 20px;
   padding: 4px 8px;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 button{
   align-self: flex-end;
-  font-weight: 400;
+  font-weight:bolder;
   font-size: 18px;
   padding: 6px 12px;
-  background: #ff8d23;;
-  border-radius: 100px;
+  background: #fab993;;
+  border-radius: 5px;
   border: 2px solid #1c1c1c;
   cursor: pointer;
 }
